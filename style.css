@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font: "Roboto", serif;
+    --color1: #F7F7F7;
+    --color2 : #FFB22C;
+    --color3: #854836;
+    --color4: #000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    background-color: #ccdc57;
+}
+
+header nav{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+}
+header nav .left{
+    width: 20%;
+    height: 100%;
+}
+header nav .left img{
+    width: 100px;
+    height: 65px;
+}
+
+header nav .middle{
+    width: 43%;
+    height: 100%;
+    background-color: #fff;
+}
+
+header nav .middle ul li{
+    list-style-type: none;
+    font-family: var(--font);
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px;
+}
+header nav .middle ul{
+    list-style-type: none;
+    font-family: var(--font);
+    display: flex;
+    margin-top: 15px;
+
+}
+
+header nav .right{
+    width: 50%;
+    height: 100%;
+    justify-content: end;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header nav .right .top{
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+header nav .right .top ul {
+    display: flex;
+}
+
+header nav .right .top ul li{
+    list-style-type: none;
+    font-size: 10px;
+    font-size: 13px;
+    margin: 10px;    
+}
+
+header nav .right .footer{
+     width: 100%;
+     height: 60%;
+     display: flex;
+     align-items: center;
+
+}
+header nav .right .footer input{
+    width: 200px;
+    height: 25px;
+    margin-left: 90px;
+     
+}
+header nav .right .footer img{
+    width: 250px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+header nav .right .footer #search{
+    margin: 15px;
+    font-size:20px; 
+}
+
+header nav .right .footer #user1{
+    margin: 15px;
+    font-size:20px;
+} 
+header nav .right .footer #heart{
+    margin: 15px;
+    font-size:20px;
+} 
+header nav .right .footer #bag{
+    margin: 15px;
+    font-size:20px;
+} 
+
+#header{
+    width: 100vw;
+    height: 550px;
+    background-image: url(../assets/adidas\ first\ page.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+main .button{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    font: var(--font);
+}
+
+main .button .left{
+    width: 40%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+main .button .left #bt1{
+    width: 150px;
+    height: 35px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color:#000000;
+}
+
+main .button .left #bt2{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 150px;
+    height: 35px;
+}
+
+
+
+main .button .right{
+    width: 40%;
+    margin-left: 160px;
+    height: 100%;
+}
+
+main .button .right a{
+    font-family: var(--font);
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 50px;
+    color: var(--color4);
+}
+
+main .body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    height: 1000px;
+}
+
+main .body .line1{
+    width: 90%;
+    height: 450px;
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+main .body .line1 .block1{
+    width: 29%;
+    height: 100%;
+}
+
+main .body .line1 .block1 .img1{
+    width: 100%;
+    height: 70%;
+}
+main .body .line1 .block1 .img1 img{
+    width: 100%;
+    height: 100%;
+}
+
+main .body .line1 .block1 .footer1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    background-color:var(--color1);
+    flex-direction: column;
+}
+
+main .body .line1 .block1 .footer1 p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: var(--font);
+}
+
+main .body .line1 .block2{
+    width: 29%;
+    height: 100%;
+}
+
+main .body .line1 .block2 .img2{
+    width: 100%;
+    height: 70%;
+}
+
+main .body .line1 .block2 .img2 img{
+    width: 100%;
+    height: 100%;
+}
+
+main .body .line1 .block2 .footer2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    background-color: var(--color1);
+    flex-direction: column;
+}
+
+main .body .line1 .block2 .footer2 p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: var(--font);
+}
+
+main .body .line1 .block3{
+    width: 29%;
+    height: 100%;
+}
+
+main .body .line1 .block3 .img3{
+    width: 100%;
+    height: 70%;
+}
+
+main .body .line1 .block3 .img3 img{
+    width: 100%;
+    height: 100%;
+}
+
+main .body .line1 .block3 .footer3{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    background-color:var(--color1);
+    flex-direction: column;
+}
+
+main .body .line1 .block3 .footer3 p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: var(--font);
+}
+
+main .body .line2{
+    width: 90%;
+    height: 450px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+
+main .body .line2 .c1{
+    width: 29%;
+    height: 100%;
+}
+
+main .body .line2 .c1 .imgc1{
+    width: 100%;
+    height: 70%;
+    background-color: #15354f;
+}
+main .body .line2 .c1 .imgc1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+main .body .line2 .c1 .fc1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    background-color: var(--color1);
+    flex-direction: column;
+}
+
+main .body .line2 .c1 .fc1 p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: var(--font);
+}
+
+main .body .line2 .c2{
+    width: 29%;
+    height: 100%;
+
+}
+
+main .body .line2 .c2 .imgc2{
+    width: 100%;
+    height: 70%;
+
+}
+
+main .body .line2 .c2 .imgc2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+main .body .line2 .c2 .fc2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    background-color: var(--color1);
+    flex-direction: column;
+}
+
+main .body .line2 .c2 .fc2 p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: var(--font);
+}
+
+
+main .body .line2 .c3{
+    width: 29%;
+    height: 100%;
+    background-color:var(--color1);
+}
+
+main .body .line2 .c3 .imgc3{
+    width: 100%;
+    height: 70%;
+    background-color: #a66e6e;
+}
+
+main .body .line2 .c3 .imgc3 img{
+    width: 100%;
+    height: 100%;
+}
+
+main .body .line2 .c3 .fc3{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    background-color: var(--color1);
+    flex-direction: column;
+}
+
+main .body .line2 .c3 .fc3 p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: var(--font);
+}
+
+main .footerend{
+    margin-left: 30px;
+    width: 100%;
+    height: 60%;
+    justify-content: space-around;
+    display: flex;
+}
+
+main .footerend .left{
+    width: 29%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+main .footerend .left .top1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .footerend .left .top1 h1{
+    font-family: var(--font);
+    font-size: 50px;
+}
+
+hr{
+    width: 300px;
+}
+
+main .footerend .left .foot1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+main .footerend .left .foot1 h1{
+    font-family: var(--font);
+    font-size: 50px;
+}
+
+
+main .footerend .middle{
+    width: 29%;
+    height: 100%;
+}
+
+main .footerend .middle .top2{
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main .footerend .middle .top2 h1{
+    font-family: var(--font);
+    font-size: 50px;
+}
+
+main .footerend .middle .foot2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .footerend .middle .foot2 h1{
+    font-family: var(--font);
+    font-size: 50px;
+}
+
+main .footerend .right{
+    width: 29%;
+    height: 100%;
+}
+
+
+main .footerend .right .top3{
+    width: 100%;
+    height: 50%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .footerend .right .top3 h1{
+    font-family: var(--font);
+    font-size: 50px;
+}
+
+main .footerend .right .foot3{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .footerend .right .foot3 h1{
+    font-family: var(--font);
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
